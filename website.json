@@ -1,0 +1,736 @@
+{
+  "assets": [],
+  "builderVersion": "3.10.0",
+  "cssVarOrder": [],
+  "dataSources": [],
+  "fonts": [],
+  "pages": [
+    {
+      "id": "ssiD12pNgZbs7mVo",
+      "isFile": true
+    }
+  ],
+  "pagesFolder": "pages",
+  "publication": {
+    "connector": {
+      "connectorId": "local-folder",
+      "disableLogout": true,
+      "displayName": "File system hosting",
+      "isLoggedIn": true,
+      "oauthUrl": null,
+      "type": "HOSTING"
+    }
+  },
+  "settings": {
+    "head": "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css\" integrity=\"sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N\" crossorigin=\"anonymous\">\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n<script src=\"https://code.jquery.com/jquery-3.5.1.min.js\"></script>\n<script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js\"></script>\n<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\"></script>\n<script src=\"/custom/PageScript.js\"></script>\n<script src=\"/custom/JsonScript.js\"></script>\n\n<style>\n  .powerAndTransSelector { width: 15em }\n  \n  .navbar-blur {\n    -webkit-backdrop-filter: blur(5px);\n    backdrop-filter: blur(5px);\n    \n    transform: translateZ(0);\n    will-change: transform;\n  }\n    \n  #mainHeader {\n    transition: transform 0.3s ease-in-out;\n  }\n  \n  #mainHeader.hide-header {\n    transform: translateY(-100%);\n  }\n</style>"
+  },
+  "styles": [
+    {
+      "selectors": [
+        "silex-default-container"
+      ],
+      "style": {
+        "min-height": "100px"
+      }
+    },
+    {
+      "selectors": [
+        "silex-default-text"
+      ],
+      "style": {
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": [],
+      "selectorsAdd": ":root",
+      "style": {
+        "--accent": "3498db",
+        "--blu": "#007ACC",
+        "--darkaccent": "#1E1E1E",
+        "--lightaccent": "#3E3E42",
+        "--main": "#252526",
+        "--maincolor": "#252526",
+        "--text": "#ededed",
+        "--verylightaccent": "#3E3E42"
+      }
+    },
+    {
+      "selectors": [
+        "locomotive-upload"
+      ],
+      "style": {
+        "font-family": "Georgia, serif",
+        "width": "100%"
+      }
+    },
+    {
+      "selectors": [
+        "upload-placeholder"
+      ],
+      "style": {
+        "background": "#fafafa",
+        "border": "2px dashed #aaa",
+        "cursor": "pointer",
+        "padding": "35px 20px",
+        "text-align": "center"
+      }
+    },
+    {
+      "selectors": [
+        "upload-icon"
+      ],
+      "style": {
+        "font-size": "35px",
+        "margin-bottom": "12px"
+      }
+    },
+    {
+      "selectors": [],
+      "selectorsAdd": ".upload-placeholder p",
+      "style": {
+        "color": "#666",
+        "font-size": "14px"
+      }
+    },
+    {
+      "selectors": [],
+      "selectorsAdd": ".upload-placeholder button, .preview-controls button",
+      "style": {
+        "background": "#eee",
+        "border": "1px solid #888",
+        "cursor": "pointer",
+        "padding": "8px 16px"
+      }
+    },
+    {
+      "selectors": [],
+      "selectorsAdd": ".upload-placeholder small",
+      "style": {
+        "color": "#777",
+        "display": "block",
+        "margin-top": "12px"
+      }
+    },
+    {
+      "selectors": [],
+      "selectorsAdd": ".upload-preview img",
+      "style": {
+        "background": "#eee",
+        "display": "block",
+        "max-height": "420px",
+        "object-fit": "contain",
+        "width": "100%"
+      }
+    },
+    {
+      "selectors": [
+        "preview-controls"
+      ],
+      "style": {
+        "align-items": "center",
+        "display": "flex",
+        "flex-wrap": "wrap",
+        "gap": "8px",
+        "justify-content": "space-between",
+        "padding": "10px 0"
+      }
+    },
+    {
+      "selectors": [],
+      "selectorsAdd": "[hidden]",
+      "style": {
+        "display": "none !important"
+      }
+    },
+    {
+      "selectors": [
+        "datafield-container"
+      ],
+      "style": {
+        "align-content": "center",
+        "align-items": "flex-start",
+        "display": "inline-flex",
+        "flex-wrap": "wrap",
+        "height": "fit-content",
+        "justify-content": "center",
+        "margin": "0rem 0px 0.5rem 0px",
+        "width": "100%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#iqlwb"
+      ],
+      "style": {
+        "font-size": "3vw"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icd6g"
+      ],
+      "style": {
+        "font-size": "1vw"
+      }
+    },
+    {
+      "selectors": [
+        "#countryOrigin"
+      ],
+      "style": {
+        "max-width": "20em",
+        "min-width": "20em",
+        "text-overflow": "ellipsis"
+      }
+    },
+    {
+      "selectors": [
+        "#countryLocale"
+      ],
+      "style": {
+        "max-width": "20em",
+        "min-width": "20em",
+        "text-overflow": "ellipsis"
+      }
+    },
+    {
+      "selectors": [
+        "#iutpvy"
+      ],
+      "style": {
+        "color": "rgb(33, 37, 41)"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#picPreview"
+      ],
+      "style": {
+        "display": "none"
+      }
+    },
+    {
+      "selectors": [
+        "#imagePreview"
+      ],
+      "style": {
+        "height": "auto",
+        "width": "75%"
+      }
+    },
+    {
+      "selectors": [
+        "#powerSourceTempl"
+      ],
+      "style": {
+        "display": "none",
+        "text-overflow": "ellipsis"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#ikjfrg"
+      ],
+      "style": {
+        "width": "50%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#ikjfrg-2"
+      ],
+      "style": {
+        "width": "50%"
+      }
+    },
+    {
+      "selectors": [
+        "text-white",
+        "p-1",
+        "mr-3"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#ikjfrg-2-2"
+      ],
+      "style": {
+        "width": "50%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#is4dop"
+      ],
+      "style": {
+        "font-size": "1.5rem"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-3"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-2-3"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-3-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-2-3-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-2-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-2-2-3"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-3-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-3-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "selectors": [
+        "#transTempl"
+      ],
+      "style": {
+        "display": "none",
+        "text-overflow": "ellipsis"
+      }
+    },
+    {
+      "selectors": [
+        "#batterySpecs"
+      ],
+      "style": {
+        "display": "none"
+      }
+    },
+    {
+      "selectors": [
+        "#dieselEngineSpecs"
+      ],
+      "style": {
+        "display": "none"
+      }
+    },
+    {
+      "selectors": [
+        "#steamEngineSpecs"
+      ],
+      "style": {
+        "display": "none"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#wheelArrNonSteamContainer"
+      ],
+      "style": {
+        "display": "none"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-3"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-3-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-3-3"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#ikjfrg-2-2-2"
+      ],
+      "style": {
+        "width": "50%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#standardNameFieldCont"
+      ],
+      "style": {
+        "display": "none"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-3-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-2-2-4"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-2-2-3-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-2-2-3-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-2-2-3-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-3-2-3"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-3-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "selectors": [
+        "#catenaryCurrentDirection"
+      ],
+      "style": {
+        "max-width": "100%",
+        "min-width": "100%",
+        "text-overflow": "ellipsis"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#ikocv4"
+      ],
+      "style": {
+        "width": "100%"
+      }
+    },
+    {
+      "selectors": [
+        "#catenarySpecs"
+      ],
+      "style": {
+        "display": "none"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-3-2-2-3"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "selectors": [
+        "#electricTransSpecs"
+      ],
+      "style": {
+        "display": "none"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-3-2-2-3-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-3-2-2-3-2-2-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-3-2-2-3-3"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-3-2-2-3-2-2-2-3-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "selectors": [
+        "#hydroMechTransSpecs"
+      ],
+      "style": {
+        "display": "none"
+      }
+    },
+    {
+      "selectors": [
+        "#ibn7fh"
+      ],
+      "style": {
+        "text-align": "center",
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-3"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-3-2-2-4"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-3-2-2-4-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-2-3-2-2-3-2-2-2-2"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "selectors": [
+        "#jsonFileInput"
+      ],
+      "style": {
+        "display": "none"
+      }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#ibn7fh-2"
+      ],
+      "style": {
+        "text-align": "center",
+        "width": "35%"
+      }
+    }
+  ],
+  "symbols": []
+}

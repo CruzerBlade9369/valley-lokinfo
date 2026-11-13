@@ -1,0 +1,3 @@
++++
+template = "silex-index.html"
++++
