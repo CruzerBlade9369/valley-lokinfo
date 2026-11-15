@@ -46,27 +46,22 @@
                     "components": [
                       {
                         "attributes": {
-                          "id": "i6uqi"
+                          "id": "iy89ai"
                         },
+                        "classes": [
+                          "d-flex",
+                          "align-items-center"
+                        ],
                         "components": [
                           {
                             "attributes": {
-                              "id": "iqlwb"
+                              "id": "ixwsff",
+                              "src": "/assets/icon.png"
                             },
                             "classes": [
-                              "text-white",
-                              "m-1"
+                              "mr-2"
                             ],
-                            "components": [
-                              {
-                                "content": "valley-lokinfo",
-                                "type": "textnode"
-                              },
-                              {
-                                "tagName": "br",
-                                "void": true
-                              }
-                            ],
+                            "privateStates": [],
                             "selector": {
                               "mainSelector": {
                                 "pseudoClass": null,
@@ -74,63 +69,122 @@
                                   {
                                     "active": true,
                                     "type": "id",
-                                    "value": "iqlwb"
-                                  },
-                                  {
-                                    "active": false,
-                                    "type": "class",
-                                    "value": "text-white"
+                                    "value": "ixwsff"
                                   },
                                   {
                                     "active": true,
                                     "type": "class",
-                                    "value": "m-1"
+                                    "value": "mr-2"
                                   }
                                 ]
                               }
                             },
-                            "type": "text"
+                            "type": "image"
                           },
                           {
                             "attributes": {
-                              "id": "icd6g"
+                              "id": "i6uqi"
                             },
-                            "classes": [
-                              "text-white",
-                              "m-1"
-                            ],
                             "components": [
                               {
-                                "content": "Derail Valley Locomotive Datasheet Generator",
-                                "type": "textnode"
+                                "attributes": {
+                                  "id": "iqlwb"
+                                },
+                                "classes": [
+                                  "text-white",
+                                  "m-1"
+                                ],
+                                "components": [
+                                  {
+                                    "content": "valley-lokinfo",
+                                    "type": "textnode"
+                                  },
+                                  {
+                                    "tagName": "br",
+                                    "void": true
+                                  }
+                                ],
+                                "custom-name": "Text",
+                                "selector": {
+                                  "mainSelector": {
+                                    "pseudoClass": null,
+                                    "selectors": [
+                                      {
+                                        "active": true,
+                                        "type": "id",
+                                        "value": "iqlwb"
+                                      },
+                                      {
+                                        "active": false,
+                                        "type": "class",
+                                        "value": "text-white"
+                                      },
+                                      {
+                                        "active": false,
+                                        "type": "class",
+                                        "value": "m-1"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "type": "text"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "icd6g"
+                                },
+                                "classes": [
+                                  "text-white",
+                                  "m-1"
+                                ],
+                                "components": [
+                                  {
+                                    "content": "Derail Valley Locomotive Datasheet Generator",
+                                    "type": "textnode"
+                                  }
+                                ],
+                                "selector": {
+                                  "mainSelector": {
+                                    "pseudoClass": null,
+                                    "selectors": [
+                                      {
+                                        "active": true,
+                                        "type": "id",
+                                        "value": "icd6g"
+                                      },
+                                      {
+                                        "active": false,
+                                        "type": "class",
+                                        "value": "text-white"
+                                      },
+                                      {
+                                        "active": true,
+                                        "type": "class",
+                                        "value": "m-1"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "type": "text"
                               }
                             ],
+                            "custom-name": "Title Text",
                             "selector": {
                               "mainSelector": {
                                 "pseudoClass": null,
                                 "selectors": [
                                   {
-                                    "active": true,
-                                    "type": "id",
-                                    "value": "icd6g"
-                                  },
-                                  {
                                     "active": false,
-                                    "type": "class",
-                                    "value": "text-white"
-                                  },
-                                  {
-                                    "active": true,
-                                    "type": "class",
-                                    "value": "m-1"
+                                    "type": "id",
+                                    "value": "i6uqi"
                                   }
                                 ]
                               }
                             },
-                            "type": "text"
+                            "type": "container"
                           }
                         ],
-                        "custom-name": "Title Text",
+                        "custom-name": "Title Flex",
                         "selector": {
                           "mainSelector": {
                             "pseudoClass": null,
@@ -138,7 +192,17 @@
                               {
                                 "active": false,
                                 "type": "id",
-                                "value": "i6uqi"
+                                "value": "iy89ai"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "d-flex"
+                              },
+                              {
+                                "active": true,
+                                "type": "class",
+                                "value": "align-items-center"
                               }
                             ]
                           }
