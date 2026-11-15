@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }));
         });*/
 
-        location.reload();
+        window.location.reload()
     })
 
     //#endregion
