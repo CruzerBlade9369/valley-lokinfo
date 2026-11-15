@@ -892,6 +892,15 @@
       "style": {
         "width": "5vw"
       }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#btnNewSheet"
+      ],
+      "style": {
+        "display": "none"
+      }
     }
   ],
   "symbols": []
