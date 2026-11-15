@@ -72,7 +72,7 @@
                                     "value": "ixwsff"
                                   },
                                   {
-                                    "active": true,
+                                    "active": false,
                                     "type": "class",
                                     "value": "mr-2"
                                   }
@@ -91,17 +91,12 @@
                                   "id": "iqlwb"
                                 },
                                 "classes": [
-                                  "text-white",
-                                  "m-1"
+                                  "text-white"
                                 ],
                                 "components": [
                                   {
                                     "content": "valley-lokinfo",
                                     "type": "textnode"
-                                  },
-                                  {
-                                    "tagName": "br",
-                                    "void": true
                                   }
                                 ],
                                 "custom-name": "Text",
@@ -118,11 +113,6 @@
                                         "active": false,
                                         "type": "class",
                                         "value": "text-white"
-                                      },
-                                      {
-                                        "active": false,
-                                        "type": "class",
-                                        "value": "m-1"
                                       }
                                     ]
                                   }
@@ -134,8 +124,7 @@
                                   "id": "icd6g"
                                 },
                                 "classes": [
-                                  "text-white",
-                                  "m-1"
+                                  "text-white"
                                 ],
                                 "components": [
                                   {
@@ -148,7 +137,7 @@
                                     "pseudoClass": null,
                                     "selectors": [
                                       {
-                                        "active": true,
+                                        "active": false,
                                         "type": "id",
                                         "value": "icd6g"
                                       },
@@ -156,11 +145,6 @@
                                         "active": false,
                                         "type": "class",
                                         "value": "text-white"
-                                      },
-                                      {
-                                        "active": true,
-                                        "type": "class",
-                                        "value": "m-1"
                                       }
                                     ]
                                   }
@@ -326,7 +310,7 @@
                           },
                           {
                             "attributes": {
-                              "id": "btnLoadJson",
+                              "id": "izr95",
                               "type": "button"
                             },
                             "classes": [
@@ -668,7 +652,7 @@
                       },
                       {
                         "attributes": {
-                          "id": "fieldLocoName",
+                          "id": "imjzt2",
                           "type": "text"
                         },
                         "classes": [
@@ -799,7 +783,7 @@
                                     "value": "icaboh-2"
                                   },
                                   {
-                                    "active": false,
+                                    "active": true,
                                     "type": "class",
                                     "value": "text-white"
                                   },
@@ -2870,7 +2854,7 @@
                         "components": [
                           {
                             "attributes": {
-                              "id": "ip0sc3"
+                              "id": "ip0sc2"
                             },
                             "classes": [
                               "btn",
@@ -2955,7 +2939,7 @@
                           },
                           {
                             "attributes": {
-                              "id": "i74u3a"
+                              "id": "i74u3b"
                             },
                             "classes": [
                               "btn",
@@ -3102,7 +3086,7 @@
                               {
                                 "attributes": {
                                   "id": "fieldWhyteNotation",
-                                  "placeholder": "with hyphens",
+                                  "placeholder": "e.g. 2-8-2",
                                   "type": "text"
                                 },
                                 "classes": [
@@ -3200,6 +3184,61 @@
                               }
                             },
                             "type": "container"
+                          },
+                          {
+                            "attributes": {
+                              "href": "https://en.wikipedia.org/wiki/Whyte_notation#Structure_of_the_system",
+                              "id": "ip2gfs-2",
+                              "type": "button"
+                            },
+                            "classes": [
+                              "btn-link",
+                              "text-white",
+                              "text-monospace",
+                              "btn-sm"
+                            ],
+                            "components": [
+                              {
+                                "content": "Whyte Notation Guide",
+                                "type": "textnode"
+                              }
+                            ],
+                            "originalTagName": "button",
+                            "selector": {
+                              "mainSelector": {
+                                "pseudoClass": null,
+                                "selectors": [
+                                  {
+                                    "active": true,
+                                    "type": "id",
+                                    "value": "ip2gfs"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "btn-link"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "text-white"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "text-monospace"
+                                  },
+                                  {
+                                    "active": true,
+                                    "type": "class",
+                                    "value": "btn-sm"
+                                  }
+                                ]
+                              }
+                            },
+                            "tagName": "A",
+                            "text": "Whyte Notation Guide",
+                            "type": "button"
                           }
                         ],
                         "custom-name": "Steam Container",
@@ -3230,6 +3269,166 @@
                           "mt-1"
                         ],
                         "components": [
+                          {
+                            "attributes": {
+                              "id": "itj6z-2-3-4"
+                            },
+                            "classes": [
+                              "d-flex",
+                              "align-items-center",
+                              "mt-1"
+                            ],
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "icaboh-4-2-2-3-4"
+                                },
+                                "classes": [
+                                  "text-white",
+                                  "p-1",
+                                  "mr-3"
+                                ],
+                                "components": [
+                                  {
+                                    "content": "UIC Classification",
+                                    "type": "textnode"
+                                  },
+                                  {
+                                    "tagName": "br",
+                                    "void": true
+                                  }
+                                ],
+                                "selector": {
+                                  "mainSelector": {
+                                    "pseudoClass": null,
+                                    "selectors": [
+                                      {
+                                        "active": true,
+                                        "type": "id",
+                                        "value": "icaboh-4-2-2"
+                                      },
+                                      {
+                                        "active": false,
+                                        "type": "class",
+                                        "value": "text-white"
+                                      },
+                                      {
+                                        "active": false,
+                                        "type": "class",
+                                        "value": "p-1"
+                                      },
+                                      {
+                                        "active": false,
+                                        "type": "class",
+                                        "value": "mr-3"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "type": "text"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "fieldUic",
+                                  "placeholder": "e.g. Bo'Bo",
+                                  "type": "text"
+                                },
+                                "classes": [
+                                  "form-control",
+                                  "text-white",
+                                  {
+                                    "label": "border-light",
+                                    "name": "border-secondary"
+                                  },
+                                  "bg-transparent"
+                                ],
+                                "privateStates": [
+                                  {
+                                    "expression": [
+                                      {
+                                        "fieldId": "fixed",
+                                        "kind": "scalar",
+                                        "label": "Fixed value",
+                                        "options": {
+                                          "value": "uicClassification"
+                                        },
+                                        "propType": "field",
+                                        "type": "property",
+                                        "typeIds": [
+                                          "String"
+                                        ]
+                                      }
+                                    ],
+                                    "id": "fieldAllAxles-34goultxgy2",
+                                    "label": "data-json"
+                                  }
+                                ],
+                                "selector": {
+                                  "mainSelector": {
+                                    "pseudoClass": null,
+                                    "selectors": [
+                                      {
+                                        "active": false,
+                                        "type": "id",
+                                        "value": "fieldLocoName-3-2"
+                                      },
+                                      {
+                                        "active": false,
+                                        "type": "class",
+                                        "value": "form-control"
+                                      },
+                                      {
+                                        "active": false,
+                                        "type": "class",
+                                        "value": "text-white"
+                                      },
+                                      {
+                                        "active": false,
+                                        "type": "class",
+                                        "value": "border-secondary"
+                                      },
+                                      {
+                                        "active": false,
+                                        "type": "class",
+                                        "value": "bg-transparent"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "type": "input",
+                                "void": true
+                              }
+                            ],
+                            "custom-name": "All Axles",
+                            "selector": {
+                              "mainSelector": {
+                                "pseudoClass": null,
+                                "selectors": [
+                                  {
+                                    "active": true,
+                                    "type": "id",
+                                    "value": "itj6z-2"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "d-flex"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "align-items-center"
+                                  },
+                                  {
+                                    "active": true,
+                                    "type": "class",
+                                    "value": "mt-1"
+                                  }
+                                ]
+                              }
+                            },
+                            "type": "container"
+                          },
                           {
                             "attributes": {
                               "id": "itj6z-2-3"
@@ -3543,6 +3742,61 @@
                               }
                             },
                             "type": "container"
+                          },
+                          {
+                            "attributes": {
+                              "href": "https://en.wikipedia.org/wiki/UIC_classification_of_locomotive_axle_arrangements#Structure",
+                              "id": "ip2gfs-2-2",
+                              "type": "button"
+                            },
+                            "classes": [
+                              "btn-link",
+                              "text-white",
+                              "text-monospace",
+                              "btn-sm"
+                            ],
+                            "components": [
+                              {
+                                "content": "UIC Classification Guide",
+                                "type": "textnode"
+                              }
+                            ],
+                            "originalTagName": "button",
+                            "selector": {
+                              "mainSelector": {
+                                "pseudoClass": null,
+                                "selectors": [
+                                  {
+                                    "active": true,
+                                    "type": "id",
+                                    "value": "ip2gfs"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "btn-link"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "text-white"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "text-monospace"
+                                  },
+                                  {
+                                    "active": true,
+                                    "type": "class",
+                                    "value": "btn-sm"
+                                  }
+                                ]
+                              }
+                            },
+                            "tagName": "A",
+                            "text": "UIC Classification Guide",
+                            "type": "button"
                           }
                         ],
                         "custom-name": "Diesel Container",
@@ -3946,7 +4200,7 @@
                           },
                           {
                             "attributes": {
-                              "id": "serialNumber",
+                              "id": "powerRating-2",
                               "options": "0\n1\n2\n3\n4\n5\n6\n7\n8\n9"
                             },
                             "classes": [
@@ -6361,7 +6615,7 @@
                       },
                       {
                         "attributes": {
-                          "id": "fieldGrossWeight-3-2",
+                          "id": "fieldTopSpeed",
                           "type": "text"
                         },
                         "classes": [
@@ -6450,6 +6704,183 @@
                       }
                     ],
                     "custom-name": "Top Speed",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "itj6z-2-2"
+                          },
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "d-flex"
+                          },
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "align-items-center"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "mt-2"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "container"
+                  },
+                  {
+                    "attributes": {
+                      "id": "itj6z-2-2-2-2-2-3-2-2-3"
+                    },
+                    "classes": [
+                      "d-flex",
+                      "align-items-center",
+                      {
+                        "label": "mt-1",
+                        "name": "mt-2"
+                      }
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "icaboh-4-2-2-2-2-2-2-3-2-2-3"
+                        },
+                        "classes": [
+                          "text-white",
+                          "p-1",
+                          "mr-3"
+                        ],
+                        "components": [
+                          {
+                            "content": "Adhesive Weight",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": true,
+                                "type": "id",
+                                "value": "icaboh-4-2-2-2"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "text-white"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "p-1"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "mr-3"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "fieldAdhesiveWeight",
+                          "type": "text"
+                        },
+                        "classes": [
+                          "form-control",
+                          "text-white",
+                          {
+                            "label": "border-light",
+                            "name": "border-secondary"
+                          },
+                          "bg-transparent"
+                        ],
+                        "privateStates": [
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "metric tonnes"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldStandardName-2-wt004wi2u7c",
+                            "label": "placeholder"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "adhesiveWeight"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldGrossWeight-3-2-2-gwgddnrk2fb",
+                            "label": "data-json"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "fieldLocoName-3-2"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "form-control"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "text-white"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "border-secondary"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "bg-transparent"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "input",
+                        "void": true
+                      }
+                    ],
+                    "custom-name": "Starting Effort",
                     "selector": {
                       "mainSelector": {
                         "pseudoClass": null,
@@ -6719,7 +7150,7 @@
                       },
                       {
                         "attributes": {
-                          "id": "fieldGrossWeight-3-2-2-2",
+                          "id": "fieldContinuousPower",
                           "type": "text"
                         },
                         "classes": [
@@ -8829,6 +9260,178 @@
                             ],
                             "components": [
                               {
+                                "content": "Engine",
+                                "type": "textnode"
+                              }
+                            ],
+                            "selector": {
+                              "mainSelector": {
+                                "pseudoClass": null,
+                                "selectors": [
+                                  {
+                                    "active": true,
+                                    "type": "id",
+                                    "value": "icaboh-4-2-2-2"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "text-white"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "p-1"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "mr-3"
+                                  }
+                                ]
+                              }
+                            },
+                            "type": "text"
+                          },
+                          {
+                            "attributes": {
+                              "id": "engineName",
+                              "type": "text"
+                            },
+                            "classes": [
+                              "form-control",
+                              "text-white",
+                              {
+                                "label": "border-light",
+                                "name": "border-secondary"
+                              },
+                              "bg-transparent"
+                            ],
+                            "privateStates": [
+                              {
+                                "expression": [
+                                  {
+                                    "fieldId": "fixed",
+                                    "kind": "scalar",
+                                    "label": "Fixed value",
+                                    "options": {
+                                      "value": "name"
+                                    },
+                                    "propType": "field",
+                                    "type": "property",
+                                    "typeIds": [
+                                      "String"
+                                    ]
+                                  }
+                                ],
+                                "id": "fieldStandardName-2-wt004wi2u7c",
+                                "label": "placeholder"
+                              },
+                              {
+                                "expression": [
+                                  {
+                                    "fieldId": "fixed",
+                                    "kind": "scalar",
+                                    "label": "Fixed value",
+                                    "options": {
+                                      "value": "engineName"
+                                    },
+                                    "propType": "field",
+                                    "type": "property",
+                                    "typeIds": [
+                                      "String"
+                                    ]
+                                  }
+                                ],
+                                "id": "fieldPeakPower-yqrm2n2fdb9",
+                                "label": "data-json"
+                              }
+                            ],
+                            "selector": {
+                              "mainSelector": {
+                                "pseudoClass": null,
+                                "selectors": [
+                                  {
+                                    "active": false,
+                                    "type": "id",
+                                    "value": "fieldLocoName-3-2"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "form-control"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "text-white"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "border-secondary"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "bg-transparent"
+                                  }
+                                ]
+                              }
+                            },
+                            "type": "input",
+                            "void": true
+                          }
+                        ],
+                        "custom-name": "Power Out",
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "itj6z-2-2-2-2-2-2-3"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "d-flex"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "align-items-center"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "container"
+                      },
+                      {
+                        "attributes": {
+                          "id": "itj6z-2-2-2-2-2-2-3-3"
+                        },
+                        "classes": [
+                          "d-flex",
+                          "align-items-center",
+                          {
+                            "label": "mt-1",
+                            "name": "mt-2"
+                          }
+                        ],
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "icaboh-4-2-2-2-2-2-2-2-3-3"
+                            },
+                            "classes": [
+                              "text-white",
+                              "p-1",
+                              "mr-3"
+                            ],
+                            "components": [
+                              {
                                 "content": "Peak Power Output",
                                 "type": "textnode"
                               }
@@ -8864,7 +9467,7 @@
                           },
                           {
                             "attributes": {
-                              "id": "fieldPeakPower",
+                              "id": "fieldPeakPower-2",
                               "type": "text"
                             },
                             "classes": [
@@ -8958,9 +9561,9 @@
                             "pseudoClass": null,
                             "selectors": [
                               {
-                                "active": false,
+                                "active": true,
                                 "type": "id",
-                                "value": "itj6z-2-2-2-2-2-2-3"
+                                "value": "itj6z-2-2-2-2-2-2-3-3"
                               },
                               {
                                 "active": false,
@@ -8971,6 +9574,11 @@
                                 "active": false,
                                 "type": "class",
                                 "value": "align-items-center"
+                              },
+                              {
+                                "active": true,
+                                "type": "class",
+                                "value": "mt-2"
                               }
                             ]
                           }
@@ -9351,7 +9959,7 @@
                             "value": "dieselEngineSpecs"
                           },
                           {
-                            "active": true,
+                            "active": false,
                             "type": "class",
                             "value": "mt-1"
                           }
@@ -13085,5 +13693,6 @@
       "id": "hyMvnCY5YzLXbXBN"
     }
   ],
-  "id": "ssiD12pNgZbs7mVo"
+  "id": "ssiD12pNgZbs7mVo",
+  "settings": {}
 }

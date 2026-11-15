@@ -1,4 +1,28 @@
 document.addEventListener("DOMContentLoaded", () => {
+
+    //#region New sheet
+
+    document.getElementById("btnNewSheet").addEventListener("click", function () {
+        document.querySelectorAll("[data-json]").forEach(element => {
+            if (element.type === "checkbox") {
+                element.checked = false;
+            } else if (element instanceof HTMLSelectElement) {
+                element.selectedIndex = 0;
+            }
+            else {
+                element.value = "";
+            }
+
+            document.getElementById("powerSourceContainer").innerHTML = "";
+            document.getElementById("transmContainer").innerHTML = "";
+
+            element.dispatchEvent(new Event("change", {
+                bubbles: true
+            }));
+        });
+    })
+
+    //#endregion
     
     //#region Wheel arr radio listener
 
