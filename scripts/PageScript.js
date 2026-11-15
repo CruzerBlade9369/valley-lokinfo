@@ -3,12 +3,15 @@ document.addEventListener("DOMContentLoaded", () => {
     //#region New sheet
 
     document.getElementById("btnNewSheet").addEventListener("click", function () {
-        document.querySelectorAll("[data-json]").forEach(element => {
+        /*document.querySelectorAll("[data-json]").forEach(element => {
             if (element.type === "checkbox") {
                 element.checked = false;
             } else if (element instanceof HTMLSelectElement) {
                 element.selectedIndex = 0;
             }
+            else if (element.type === "radio") {
+                    
+                }
             else {
                 element.value = "";
             }
@@ -19,7 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
             element.dispatchEvent(new Event("change", {
                 bubbles: true
             }));
-        });
+        });*/
+
+        location.reload();
     })
 
     //#endregion

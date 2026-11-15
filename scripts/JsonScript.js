@@ -6,7 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelectorAll("[data-json]").forEach(element => {
             const key = element.dataset.json;
 
-            if (element.type === "checkbox") {
+            if (element.id == "wheelArrBtnGrp") {
+                const active = element.querySelector(":scope > .active")
+                data[key] = active.id;
+            } else if (element.type === "checkbox") {
                 data[key] = element.checked;
             }
             else {
@@ -97,7 +100,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (!(key in data)) return;
 
-            if (element.type === "checkbox") {
+            if (element.id == "wheelArrBtnGrp") {
+                const selectedId = data[key];
+
+                element.querySelectorAll(":scope > .btn").forEach(button => {
+                    button.classList.remove("active");
+
+                    const radio = button.querySelector('input[type="radio"]');
+                    if (radio) {
+                        radio.checked = false;
+                    }
+                });
+
+                const selected = element.querySelector(
+                    `:scope > #${CSS.escape(selectedId)}`
+                );
+
+                if (selected) {
+                    selected.classList.add("active");
+
+                    const radio = selected.querySelector('input[type="radio"]');
+
+                    if (radio) {
+                        radio.checked = true;
+                        radio.dispatchEvent(new Event("change", { bubbles: true }));
+                    }
+                }
+            }
+            else if (element.type === "checkbox") {
                 element.checked = data[key];
             }
             else {

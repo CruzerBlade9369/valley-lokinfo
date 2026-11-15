@@ -55,13 +55,12 @@
                         "components": [
                           {
                             "attributes": {
-                              "id": "ixwsff",
+                              "id": "i50h3f",
                               "src": "https://cdn.jsdelivr.net/gh/CruzerBlade9369/valley-lokinfo@main/assets/icon.png"
                             },
                             "classes": [
                               "mr-2"
                             ],
-                            "privateStates": [],
                             "selector": {
                               "mainSelector": {
                                 "pseudoClass": null,
@@ -69,17 +68,16 @@
                                   {
                                     "active": true,
                                     "type": "id",
-                                    "value": "ixwsff"
+                                    "value": "i50h3f"
                                   },
                                   {
-                                    "active": false,
+                                    "active": true,
                                     "type": "class",
                                     "value": "mr-2"
                                   }
                                 ]
                               }
                             },
-                            "src": "/assets/icon.png",
                             "type": "image"
                           },
                           {
@@ -311,7 +309,7 @@
                           },
                           {
                             "attributes": {
-                              "id": "izr95",
+                              "id": "btnLoadJson",
                               "type": "button"
                             },
                             "classes": [
@@ -653,7 +651,7 @@
                       },
                       {
                         "attributes": {
-                          "id": "imjzt2",
+                          "id": "fieldLocoName",
                           "type": "text"
                         },
                         "classes": [
@@ -691,7 +689,7 @@
                             "pseudoClass": null,
                             "selectors": [
                               {
-                                "active": false,
+                                "active": true,
                                 "type": "id",
                                 "value": "imjzt2"
                               },
@@ -711,7 +709,7 @@
                                 "value": "border-secondary"
                               },
                               {
-                                "active": true,
+                                "active": false,
                                 "type": "class",
                                 "value": "bg-transparent"
                               }
@@ -1025,9 +1023,9 @@
                                 "pseudoClass": null,
                                 "selectors": [
                                   {
-                                    "active": false,
+                                    "active": true,
                                     "type": "id",
-                                    "value": "countryOrigin"
+                                    "value": "countryLocale"
                                   },
                                   {
                                     "active": false,
@@ -1045,7 +1043,7 @@
                                     "value": "text-white"
                                   },
                                   {
-                                    "active": true,
+                                    "active": false,
                                     "type": "class",
                                     "value": "bg-dark"
                                   }
@@ -1276,7 +1274,7 @@
                               {
                                 "attributes": {
                                   "id": "fieldYearStart",
-                                  "type": "text"
+                                  "type": "number"
                                 },
                                 "classes": [
                                   "form-control",
@@ -1483,7 +1481,7 @@
                               {
                                 "attributes": {
                                   "id": "fieldYearEnd",
-                                  "type": "text"
+                                  "type": "number"
                                 },
                                 "classes": [
                                   "form-control",
@@ -2846,7 +2844,7 @@
                       {
                         "attributes": {
                           "data-toggle": "buttons",
-                          "id": "iewfl6"
+                          "id": "wheelArrBtnGrp"
                         },
                         "classes": [
                           "btn-group",
@@ -2855,7 +2853,7 @@
                         "components": [
                           {
                             "attributes": {
-                              "id": "ip0sc2"
+                              "id": "steam"
                             },
                             "classes": [
                               "btn",
@@ -2874,27 +2872,7 @@
                                   "name": "options",
                                   "type": "radio"
                                 },
-                                "privateStates": [
-                                  {
-                                    "expression": [
-                                      {
-                                        "fieldId": "fixed",
-                                        "kind": "scalar",
-                                        "label": "Fixed value",
-                                        "options": {
-                                          "value": "isWheelArrSteam"
-                                        },
-                                        "propType": "field",
-                                        "type": "property",
-                                        "typeIds": [
-                                          "String"
-                                        ]
-                                      }
-                                    ],
-                                    "id": "steamEngineArr-7jqrkf2ba5t",
-                                    "label": "data-json"
-                                  }
-                                ],
+                                "privateStates": [],
                                 "type": "radio",
                                 "void": true
                               },
@@ -2909,7 +2887,7 @@
                                 "pseudoClass": null,
                                 "selectors": [
                                   {
-                                    "active": true,
+                                    "active": false,
                                     "type": "id",
                                     "value": "ip0sc2"
                                   },
@@ -2940,7 +2918,7 @@
                           },
                           {
                             "attributes": {
-                              "id": "i74u3b"
+                              "id": "nonSteam"
                             },
                             "classes": [
                               "btn",
@@ -2957,27 +2935,7 @@
                                   "name": "options",
                                   "type": "radio"
                                 },
-                                "privateStates": [
-                                  {
-                                    "expression": [
-                                      {
-                                        "fieldId": "fixed",
-                                        "kind": "scalar",
-                                        "label": "Fixed value",
-                                        "options": {
-                                          "value": "isWheelArrNonSteam"
-                                        },
-                                        "propType": "field",
-                                        "type": "property",
-                                        "typeIds": [
-                                          "String"
-                                        ]
-                                      }
-                                    ],
-                                    "id": "nonSteamEngineArr-o0m4jb9fpb",
-                                    "label": "data-json"
-                                  }
-                                ],
+                                "privateStates": [],
                                 "type": "radio",
                                 "void": true
                               },
@@ -3016,7 +2974,28 @@
                             "type": "label"
                           }
                         ],
-                        "custom-name": "Btn Grp"
+                        "custom-name": "Btn Grp",
+                        "privateStates": [
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "wheelArrangementType"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "iewfl6-vvwegqbx0va",
+                            "label": "data-json"
+                          }
+                        ]
                       },
                       {
                         "attributes": {
@@ -3400,166 +3379,7 @@
                                 "void": true
                               }
                             ],
-                            "custom-name": "All Axles",
-                            "selector": {
-                              "mainSelector": {
-                                "pseudoClass": null,
-                                "selectors": [
-                                  {
-                                    "active": true,
-                                    "type": "id",
-                                    "value": "itj6z-2"
-                                  },
-                                  {
-                                    "active": false,
-                                    "type": "class",
-                                    "value": "d-flex"
-                                  },
-                                  {
-                                    "active": false,
-                                    "type": "class",
-                                    "value": "align-items-center"
-                                  },
-                                  {
-                                    "active": true,
-                                    "type": "class",
-                                    "value": "mt-1"
-                                  }
-                                ]
-                              }
-                            },
-                            "type": "container"
-                          },
-                          {
-                            "attributes": {
-                              "id": "itj6z-2-3"
-                            },
-                            "classes": [
-                              "d-flex",
-                              "align-items-center",
-                              "mt-1"
-                            ],
-                            "components": [
-                              {
-                                "attributes": {
-                                  "id": "icaboh-4-2-2-3"
-                                },
-                                "classes": [
-                                  "text-white",
-                                  "p-1",
-                                  "mr-3"
-                                ],
-                                "components": [
-                                  {
-                                    "content": "All Axles",
-                                    "type": "textnode"
-                                  },
-                                  {
-                                    "tagName": "br",
-                                    "void": true
-                                  }
-                                ],
-                                "selector": {
-                                  "mainSelector": {
-                                    "pseudoClass": null,
-                                    "selectors": [
-                                      {
-                                        "active": true,
-                                        "type": "id",
-                                        "value": "icaboh-4-2-2"
-                                      },
-                                      {
-                                        "active": false,
-                                        "type": "class",
-                                        "value": "text-white"
-                                      },
-                                      {
-                                        "active": false,
-                                        "type": "class",
-                                        "value": "p-1"
-                                      },
-                                      {
-                                        "active": false,
-                                        "type": "class",
-                                        "value": "mr-3"
-                                      }
-                                    ]
-                                  }
-                                },
-                                "type": "text"
-                              },
-                              {
-                                "attributes": {
-                                  "id": "fieldAllAxles",
-                                  "type": "text"
-                                },
-                                "classes": [
-                                  "form-control",
-                                  "text-white",
-                                  {
-                                    "label": "border-light",
-                                    "name": "border-secondary"
-                                  },
-                                  "bg-transparent"
-                                ],
-                                "privateStates": [
-                                  {
-                                    "expression": [
-                                      {
-                                        "fieldId": "fixed",
-                                        "kind": "scalar",
-                                        "label": "Fixed value",
-                                        "options": {
-                                          "value": "axleCount"
-                                        },
-                                        "propType": "field",
-                                        "type": "property",
-                                        "typeIds": [
-                                          "String"
-                                        ]
-                                      }
-                                    ],
-                                    "id": "fieldAllAxles-34goultxgy2",
-                                    "label": "data-json"
-                                  }
-                                ],
-                                "selector": {
-                                  "mainSelector": {
-                                    "pseudoClass": null,
-                                    "selectors": [
-                                      {
-                                        "active": false,
-                                        "type": "id",
-                                        "value": "fieldLocoName-3-2"
-                                      },
-                                      {
-                                        "active": false,
-                                        "type": "class",
-                                        "value": "form-control"
-                                      },
-                                      {
-                                        "active": false,
-                                        "type": "class",
-                                        "value": "text-white"
-                                      },
-                                      {
-                                        "active": false,
-                                        "type": "class",
-                                        "value": "border-secondary"
-                                      },
-                                      {
-                                        "active": false,
-                                        "type": "class",
-                                        "value": "bg-transparent"
-                                      }
-                                    ]
-                                  }
-                                },
-                                "type": "input",
-                                "void": true
-                              }
-                            ],
-                            "custom-name": "All Axles",
+                            "custom-name": "UIC",
                             "selector": {
                               "mainSelector": {
                                 "pseudoClass": null,
@@ -4201,7 +4021,7 @@
                           },
                           {
                             "attributes": {
-                              "id": "powerRating-2",
+                              "id": "serialNumber",
                               "options": "0\n1\n2\n3\n4\n5\n6\n7\n8\n9"
                             },
                             "classes": [
@@ -5854,7 +5674,7 @@
                                 "kind": "scalar",
                                 "label": "Fixed value",
                                 "options": {
-                                  "value": "weight"
+                                  "value": "height"
                                 },
                                 "propType": "field",
                                 "type": "property",
@@ -13107,9 +12927,7 @@
                                 ],
                                 "id": "fieldStandardName-2-wt004wi2u7c",
                                 "label": "placeholder"
-                              }
-                            ],
-                            "publicStates": [
+                              },
                               {
                                 "expression": [
                                   {
@@ -13126,10 +12944,11 @@
                                     ]
                                   }
                                 ],
-                                "id": "fieldFinalGearRatio-5z7se5rl2rr",
+                                "id": "fieldFinalGearRatio-4cchr3nggct",
                                 "label": "data-json"
                               }
                             ],
+                            "publicStates": [],
                             "selector": {
                               "mainSelector": {
                                 "pseudoClass": null,
@@ -13206,7 +13025,7 @@
                         "components": [
                           {
                             "attributes": {
-                              "id": "icaboh-4-2-2-2-2-2-2-2-3-2-2-3-2-2-2-3-2"
+                              "id": "icaboh-757"
                             },
                             "classes": [
                               "text-white",
@@ -13215,7 +13034,7 @@
                             ],
                             "components": [
                               {
-                                "content": "Number Of Ratios",
+                                "content": "Number of Ratios",
                                 "type": "textnode"
                               }
                             ],
@@ -13275,7 +13094,7 @@
                                     "kind": "scalar",
                                     "label": "Fixed value",
                                     "options": {
-                                      "value": "numberOfGearRatios"
+                                      "value": "numberOfRatios"
                                     },
                                     "propType": "field",
                                     "type": "property",
@@ -13332,7 +13151,7 @@
                               {
                                 "active": true,
                                 "type": "id",
-                                "value": "itj6z-2-2-2-2-2-2-3-2-2-3-2"
+                                "value": "itj6z-2-2-2-2-2-2-3-2-2-3-2-2-2-3-2"
                               },
                               {
                                 "active": false,
@@ -13345,7 +13164,7 @@
                                 "value": "align-items-center"
                               },
                               {
-                                "active": true,
+                                "active": false,
                                 "type": "class",
                                 "value": "mt-2"
                               }
@@ -13667,7 +13486,57 @@
         "head": {
           "type": "head"
         },
-        "publicStates": [],
+        "id-plugin-data-source": "i3xj-835",
+        "publicStates": [
+          {
+            "expression": [],
+            "hidden": true,
+            "id": "eleventySeoTitle",
+            "label": "eleventySeoTitle"
+          },
+          {
+            "expression": [],
+            "hidden": true,
+            "id": "eleventySeoDescription",
+            "label": "eleventySeoDescription"
+          },
+          {
+            "expression": [],
+            "hidden": true,
+            "id": "eleventyFavicon",
+            "label": "eleventyFavicon"
+          },
+          {
+            "expression": [],
+            "hidden": true,
+            "id": "eleventyOGImage",
+            "label": "eleventyOGImage"
+          },
+          {
+            "expression": [],
+            "hidden": true,
+            "id": "eleventyOGTitle",
+            "label": "eleventyOGTitle"
+          },
+          {
+            "expression": [],
+            "hidden": true,
+            "id": "eleventyOGDescription",
+            "label": "eleventyOGDescription"
+          },
+          {
+            "expression": [],
+            "hidden": true,
+            "id": "eleventyPageData",
+            "label": "eleventyPageData"
+          },
+          {
+            "expression": [],
+            "hidden": true,
+            "id": "eleventyPermalink",
+            "label": "eleventyPermalink"
+          }
+        ],
         "selector": {
           "mainSelector": {
             "pseudoClass": null,
@@ -13695,5 +13564,15 @@
     }
   ],
   "id": "ssiD12pNgZbs7mVo",
-  "settings": {}
+  "settings": {
+    "eleventyFavicon": "[]",
+    "eleventyOGDescription": "[]",
+    "eleventyOGImage": "[]",
+    "eleventyOGTitle": "[]",
+    "eleventyPageData": "[]",
+    "eleventyPermalink": "[]",
+    "eleventySeoDescription": "[]",
+    "eleventySeoTitle": "[]",
+    "head": "<script src=\"../scripts/JsonScript.js\"></script>\n<script src=\"../scripts/PageScript.js\"></script>\n<script src=\"../scripts/SheetBuilder.js\"></script>\n\n<style>\n  .powerAndTransSelector { width: 15em }\n  \n  .navbar-blur {\n    -webkit-backdrop-filter: blur(5px);\n    backdrop-filter: blur(5px);\n    \n    transform: translateZ(0);\n    will-change: transform;\n  }\n    \n  #mainHeader {\n    transition: transform 0.3s ease-in-out;\n  }\n  \n  #mainHeader.hide-header {\n    transform: translateY(-100%);\n  }\n  \n  .page-icon img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover; /* Options: cover, contain, fill, scale-down, none */\n  }\n\n</style>"
+  }
 }
