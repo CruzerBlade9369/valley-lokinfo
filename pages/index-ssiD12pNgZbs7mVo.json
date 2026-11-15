@@ -56,7 +56,7 @@
                           {
                             "attributes": {
                               "id": "ixwsff",
-                              "src": "/assets/icon.png"
+                              "src": "https://cdn.jsdelivr.net/gh/CruzerBlade9369/valley-lokinfo@main/assets/icon.png"
                             },
                             "classes": [
                               "mr-2"
@@ -79,6 +79,7 @@
                                 ]
                               }
                             },
+                            "src": "/assets/icon.png",
                             "type": "image"
                           },
                           {

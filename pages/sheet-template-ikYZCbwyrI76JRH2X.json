@@ -52,7 +52,7 @@
                           {
                             "attributes": {
                               "id": "ixwsff-2",
-                              "src": "/assets/icon_dark.png"
+                              "src": "https://cdn.jsdelivr.net/gh/CruzerBlade9369/valley-lokinfo@main/assets/icon_dark.png"
                             },
                             "classes": [
                               "mr-2"
@@ -75,6 +75,7 @@
                                 ]
                               }
                             },
+                            "src": "/assets/icon_dark.png",
                             "type": "image"
                           },
                           {
@@ -5451,7 +5452,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-3-4-2"
+                      "id": "entryEngineName"
                     },
                     "classes": [
                       "border-top",
@@ -5618,7 +5619,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-3-2-3-2"
+                      "id": "entryPeakPowerOutput"
                     },
                     "classes": [
                       "border-top",
@@ -5827,7 +5828,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-2-3-2-3-2"
+                      "id": "entryRpmAtPeakPower"
                     },
                     "classes": [
                       "border-top",
@@ -5994,7 +5995,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-2-2-2-3-3"
+                      "id": "entryFuelCapacity"
                     },
                     "classes": [
                       "border-top",
@@ -6308,7 +6309,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-3-4-3"
+                      "id": "entryBatteryComposition"
                     },
                     "classes": [
                       "border-top",
@@ -6475,7 +6476,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-3-2-3-3"
+                      "id": "entryNominalVoltage"
                     },
                     "classes": [
                       "border-top",
@@ -6680,7 +6681,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-2-3-2-3-3"
+                      "id": "entryPeakVoltage"
                     },
                     "classes": [
                       "border-top",
@@ -6889,7 +6890,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-2-2-2-3-2-3"
+                      "id": "entryBatteryCapacity"
                     },
                     "classes": [
                       "border-top",
@@ -7203,7 +7204,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-3-2-3-3-2"
+                      "id": "entryNominalSupplyVoltage"
                     },
                     "classes": [
                       "border-top",
@@ -7408,7 +7409,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-2-3-2-3-3-2"
+                      "id": "entrySupplyFrequency"
                     },
                     "classes": [
                       "border-top",
@@ -7617,7 +7618,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-2-2-2-3-2-3-2"
+                      "id": "entryCurrentDirection"
                     },
                     "classes": [
                       "border-top",
@@ -7889,7 +7890,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-3-4-3-2"
+                      "id": "entryMaxGeneratorVoltage"
                     },
                     "classes": [
                       "border-top",
@@ -8094,7 +8095,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-3-2-3-3-3"
+                      "id": "entryMaxCurrentPerTm"
                     },
                     "classes": [
                       "border-top",
@@ -8299,7 +8300,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-2-3-2-3-3-3"
+                      "id": "entryNumOfTms"
                     },
                     "classes": [
                       "border-top",
@@ -8466,7 +8467,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-2-2-2-3-2-3-3"
+                      "id": "entryDynBrkPower"
                     },
                     "classes": [
                       "border-top",
@@ -8780,7 +8781,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-3-4-3-2-2"
+                      "id": "entryFinalGearRatio"
                     },
                     "classes": [
                       "border-top",
@@ -8947,7 +8948,7 @@
                   },
                   {
                     "attributes": {
-                      "id": "iwq3b3-2-3-2-3-3-3-2"
+                      "id": "entryNumOfRatios"
                     },
                     "classes": [
                       "border-top",
