@@ -1508,6 +1508,180 @@
               },
               {
                 "attributes": {
+                  "id": "iwq3b3-3-5"
+                },
+                "classes": [
+                  "border-top",
+                  "border-bottom",
+                  "d-flex",
+                  "p-2",
+                  "entry-parent"
+                ],
+                "components": [
+                  {
+                    "attributes": {
+                      "id": "itsyeq-3-5"
+                    },
+                    "classes": [
+                      "border-right",
+                      "mr-3"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "igmpka-3-5"
+                        },
+                        "classes": [
+                          "text-dark"
+                        ],
+                        "components": [
+                          {
+                            "content": "Transmission Type",
+                            "type": "textnode"
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": true,
+                                "type": "id",
+                                "value": "igmpka"
+                              },
+                              {
+                                "active": true,
+                                "type": "class",
+                                "value": "text-dark"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-name": "Left",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "itsyeq"
+                          },
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "border-right"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "mr-3"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "container"
+                  },
+                  {
+                    "attributes": {
+                      "id": "i1yfsj-3-5"
+                    },
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "transmissionType"
+                        },
+                        "classes": [
+                          "text-dark"
+                        ],
+                        "components": [
+                          {
+                            "content": "Electric",
+                            "type": "textnode"
+                          }
+                        ],
+                        "privateStates": [],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": true,
+                                "type": "id",
+                                "value": "iu735b"
+                              },
+                              {
+                                "active": true,
+                                "type": "class",
+                                "value": "text-dark"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      }
+                    ],
+                    "custom-name": "Right",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "i1yfsj"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "container"
+                  }
+                ],
+                "custom-name": "Entry",
+                "selector": {
+                  "mainSelector": {
+                    "pseudoClass": null,
+                    "selectors": [
+                      {
+                        "active": true,
+                        "type": "id",
+                        "value": "iwq3b3-3-5"
+                      },
+                      {
+                        "active": false,
+                        "type": "class",
+                        "value": "border-top"
+                      },
+                      {
+                        "active": false,
+                        "type": "class",
+                        "value": "border-bottom"
+                      },
+                      {
+                        "active": false,
+                        "type": "class",
+                        "value": "d-flex"
+                      },
+                      {
+                        "active": false,
+                        "type": "class",
+                        "value": "p-2"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "entry-parent"
+                      }
+                    ]
+                  }
+                },
+                "type": "container"
+              },
+              {
+                "attributes": {
                   "id": "ihm2pf"
                 },
                 "classes": [
@@ -1603,180 +1777,6 @@
                                     "active": true,
                                     "type": "class",
                                     "value": "card"
-                                  }
-                                ]
-                              }
-                            },
-                            "type": "container"
-                          },
-                          {
-                            "attributes": {
-                              "id": "iwq3b3-3-5"
-                            },
-                            "classes": [
-                              "border-top",
-                              "border-bottom",
-                              "d-flex",
-                              "p-2",
-                              "entry-parent"
-                            ],
-                            "components": [
-                              {
-                                "attributes": {
-                                  "id": "itsyeq-3-5"
-                                },
-                                "classes": [
-                                  "border-right",
-                                  "mr-3"
-                                ],
-                                "components": [
-                                  {
-                                    "attributes": {
-                                      "id": "igmpka-3-5"
-                                    },
-                                    "classes": [
-                                      "text-dark"
-                                    ],
-                                    "components": [
-                                      {
-                                        "content": "Transmission Type",
-                                        "type": "textnode"
-                                      }
-                                    ],
-                                    "selector": {
-                                      "mainSelector": {
-                                        "pseudoClass": null,
-                                        "selectors": [
-                                          {
-                                            "active": true,
-                                            "type": "id",
-                                            "value": "igmpka"
-                                          },
-                                          {
-                                            "active": true,
-                                            "type": "class",
-                                            "value": "text-dark"
-                                          }
-                                        ]
-                                      }
-                                    },
-                                    "type": "text"
-                                  }
-                                ],
-                                "custom-name": "Left",
-                                "selector": {
-                                  "mainSelector": {
-                                    "pseudoClass": null,
-                                    "selectors": [
-                                      {
-                                        "active": false,
-                                        "type": "id",
-                                        "value": "itsyeq"
-                                      },
-                                      {
-                                        "active": false,
-                                        "type": "class",
-                                        "value": "border-right"
-                                      },
-                                      {
-                                        "active": true,
-                                        "type": "class",
-                                        "value": "mr-3"
-                                      }
-                                    ]
-                                  }
-                                },
-                                "type": "container"
-                              },
-                              {
-                                "attributes": {
-                                  "id": "i1yfsj-3-5"
-                                },
-                                "components": [
-                                  {
-                                    "attributes": {
-                                      "id": "transmissionType"
-                                    },
-                                    "classes": [
-                                      "text-dark"
-                                    ],
-                                    "components": [
-                                      {
-                                        "content": "Electric",
-                                        "type": "textnode"
-                                      }
-                                    ],
-                                    "privateStates": [],
-                                    "selector": {
-                                      "mainSelector": {
-                                        "pseudoClass": null,
-                                        "selectors": [
-                                          {
-                                            "active": true,
-                                            "type": "id",
-                                            "value": "iu735b"
-                                          },
-                                          {
-                                            "active": true,
-                                            "type": "class",
-                                            "value": "text-dark"
-                                          }
-                                        ]
-                                      }
-                                    },
-                                    "type": "text"
-                                  }
-                                ],
-                                "custom-name": "Right",
-                                "selector": {
-                                  "mainSelector": {
-                                    "pseudoClass": null,
-                                    "selectors": [
-                                      {
-                                        "active": false,
-                                        "type": "id",
-                                        "value": "i1yfsj"
-                                      }
-                                    ]
-                                  }
-                                },
-                                "type": "container"
-                              }
-                            ],
-                            "custom-name": "Entry",
-                            "selector": {
-                              "mainSelector": {
-                                "pseudoClass": null,
-                                "selectors": [
-                                  {
-                                    "active": true,
-                                    "type": "id",
-                                    "value": "iwq3b3-3-5"
-                                  },
-                                  {
-                                    "active": false,
-                                    "type": "class",
-                                    "value": "border-top"
-                                  },
-                                  {
-                                    "active": false,
-                                    "type": "class",
-                                    "value": "border-bottom"
-                                  },
-                                  {
-                                    "active": false,
-                                    "type": "class",
-                                    "value": "d-flex"
-                                  },
-                                  {
-                                    "active": false,
-                                    "type": "class",
-                                    "value": "p-2"
-                                  },
-                                  {
-                                    "active": true,
-                                    "type": "class",
-                                    "value": "entry-parent"
                                   }
                                 ]
                               }
@@ -2175,6 +2175,242 @@
                               {
                                 "attributes": {
                                   "id": "ir3k9i-2-2-3"
+                                },
+                                "classes": [
+                                  "text-dark",
+                                  "ml-1"
+                                ],
+                                "components": [
+                                  {
+                                    "content": "t",
+                                    "type": "textnode"
+                                  },
+                                  {
+                                    "tagName": "br",
+                                    "void": true
+                                  }
+                                ],
+                                "selector": {
+                                  "mainSelector": {
+                                    "pseudoClass": null,
+                                    "selectors": [
+                                      {
+                                        "active": false,
+                                        "type": "id",
+                                        "value": "ir3k9i-2-2"
+                                      },
+                                      {
+                                        "active": false,
+                                        "type": "class",
+                                        "value": "text-dark"
+                                      },
+                                      {
+                                        "active": true,
+                                        "type": "class",
+                                        "value": "ml-1"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "type": "text"
+                              }
+                            ],
+                            "custom-name": "Entry",
+                            "selector": {
+                              "mainSelector": {
+                                "pseudoClass": null,
+                                "selectors": [
+                                  {
+                                    "active": false,
+                                    "type": "id",
+                                    "value": "iwq3b3-3-2"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "border-top"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "border-bottom"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "d-flex"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "p-2"
+                                  },
+                                  {
+                                    "active": true,
+                                    "type": "class",
+                                    "value": "entry-parent"
+                                  }
+                                ]
+                              }
+                            },
+                            "type": "container"
+                          },
+                          {
+                            "attributes": {
+                              "id": "iwq3b3-3-2-4"
+                            },
+                            "classes": [
+                              "border-top",
+                              "border-bottom",
+                              "d-flex",
+                              "p-2",
+                              "entry-parent"
+                            ],
+                            "components": [
+                              {
+                                "attributes": {
+                                  "id": "itsyeq-3-2-4"
+                                },
+                                "classes": [
+                                  "border-right",
+                                  "mr-3"
+                                ],
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "id": "igmpka-3-2-4"
+                                    },
+                                    "classes": [
+                                      "text-dark"
+                                    ],
+                                    "components": [
+                                      {
+                                        "content": "Axle Load",
+                                        "type": "textnode"
+                                      }
+                                    ],
+                                    "selector": {
+                                      "mainSelector": {
+                                        "pseudoClass": null,
+                                        "selectors": [
+                                          {
+                                            "active": true,
+                                            "type": "id",
+                                            "value": "igmpka"
+                                          },
+                                          {
+                                            "active": true,
+                                            "type": "class",
+                                            "value": "text-dark"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "type": "text"
+                                  }
+                                ],
+                                "custom-name": "Left",
+                                "selector": {
+                                  "mainSelector": {
+                                    "pseudoClass": null,
+                                    "selectors": [
+                                      {
+                                        "active": false,
+                                        "type": "id",
+                                        "value": "itsyeq"
+                                      },
+                                      {
+                                        "active": false,
+                                        "type": "class",
+                                        "value": "border-right"
+                                      },
+                                      {
+                                        "active": true,
+                                        "type": "class",
+                                        "value": "mr-3"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "type": "container"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "i1yfsj-3-2-4"
+                                },
+                                "components": [
+                                  {
+                                    "attributes": {
+                                      "id": "iu735b-3-2-4"
+                                    },
+                                    "classes": [
+                                      "text-dark"
+                                    ],
+                                    "components": [
+                                      {
+                                        "content": "10",
+                                        "type": "textnode"
+                                      }
+                                    ],
+                                    "privateStates": [
+                                      {
+                                        "expression": [
+                                          {
+                                            "fieldId": "fixed",
+                                            "kind": "scalar",
+                                            "label": "Fixed value",
+                                            "options": {
+                                              "value": "axleLoad"
+                                            },
+                                            "propType": "field",
+                                            "type": "property",
+                                            "typeIds": [
+                                              "String"
+                                            ]
+                                          }
+                                        ],
+                                        "id": "iu735b-3-2-eketyic0tr7",
+                                        "label": "loco-data"
+                                      }
+                                    ],
+                                    "selector": {
+                                      "mainSelector": {
+                                        "pseudoClass": null,
+                                        "selectors": [
+                                          {
+                                            "active": true,
+                                            "type": "id",
+                                            "value": "iu735b"
+                                          },
+                                          {
+                                            "active": true,
+                                            "type": "class",
+                                            "value": "text-dark"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "type": "text"
+                                  }
+                                ],
+                                "custom-name": "Right",
+                                "selector": {
+                                  "mainSelector": {
+                                    "pseudoClass": null,
+                                    "selectors": [
+                                      {
+                                        "active": false,
+                                        "type": "id",
+                                        "value": "i1yfsj"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "type": "container"
+                              },
+                              {
+                                "attributes": {
+                                  "id": "ir3k9i-2-2-3-4"
                                 },
                                 "classes": [
                                   "text-dark",

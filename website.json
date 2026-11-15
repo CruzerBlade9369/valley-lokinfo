@@ -901,6 +901,23 @@
       "style": {
         "display": "none"
       }
+    },
+    {
+      "atRule": "",
+      "selectors": [
+        "#icaboh-4-2-2-2-2-2-2-3"
+      ],
+      "style": {
+        "width": "35%"
+      }
+    },
+    {
+      "selectors": [
+        "#standardNameFieldCont"
+      ],
+      "style": {
+        "display": "none"
+      }
     }
   ],
   "symbols": []
