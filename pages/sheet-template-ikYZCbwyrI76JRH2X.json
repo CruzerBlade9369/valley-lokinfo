@@ -313,7 +313,8 @@
                 "classes": [
                   "d-flex",
                   "justify-content-between",
-                  "align-items-center"
+                  "align-items-center",
+                  "border-bottom"
                 ],
                 "components": [
                   {
@@ -549,9 +550,14 @@
                         "value": "justify-content-between"
                       },
                       {
-                        "active": true,
+                        "active": false,
                         "type": "class",
                         "value": "align-items-center"
+                      },
+                      {
+                        "active": true,
+                        "type": "class",
+                        "value": "border-bottom"
                       }
                     ]
                   }
@@ -5109,7 +5115,7 @@
                         ],
                         "components": [
                           {
-                            "content": "m",
+                            "content": "bar",
                             "type": "textnode"
                           },
                           {
