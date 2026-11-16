@@ -34,8 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const emptyFields = [...document.querySelectorAll('[required-field]')]
             .filter(element => element.value.trim() === "");
 
-        console.log(document.querySelectorAll('[required-field]').length);
-        console.log(emptyFields.length)
         if (emptyFields.length > 0) {
             alert("Please enter values in the required fields.");
             highlightRequired();
