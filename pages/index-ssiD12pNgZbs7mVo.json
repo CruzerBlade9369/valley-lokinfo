@@ -682,6 +682,44 @@
                             ],
                             "id": "fieldLocoName-tvn58vi3dqe",
                             "label": "data-json"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldLocoName-oqkl61e2lj",
+                            "label": "required-field"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldLocoName-xk9fzfkmb38",
+                            "label": "required-highlight"
                           }
                         ],
                         "selector": {
@@ -689,9 +727,9 @@
                             "pseudoClass": null,
                             "selectors": [
                               {
-                                "active": true,
+                                "active": false,
                                 "type": "id",
-                                "value": "imjzt2"
+                                "value": "fieldLocoName"
                               },
                               {
                                 "active": false,
@@ -856,6 +894,11 @@
                                 ],
                                 "id": "countryOrigin-kphspuorvb",
                                 "label": "data-json"
+                              },
+                              {
+                                "expression": [],
+                                "id": "countryOrigin-1jh8frskrke",
+                                "label": "required-highlight"
                               }
                             ],
                             "selector": {
@@ -863,7 +906,7 @@
                                 "pseudoClass": null,
                                 "selectors": [
                                   {
-                                    "active": true,
+                                    "active": false,
                                     "type": "id",
                                     "value": "countryOrigin"
                                   },
@@ -1305,6 +1348,44 @@
                                     ],
                                     "id": "fieldYearStart-19fe6eczvyp",
                                     "label": "data-json"
+                                  },
+                                  {
+                                    "expression": [
+                                      {
+                                        "fieldId": "fixed",
+                                        "kind": "scalar",
+                                        "label": "Fixed value",
+                                        "options": {
+                                          "value": "true"
+                                        },
+                                        "propType": "field",
+                                        "type": "property",
+                                        "typeIds": [
+                                          "String"
+                                        ]
+                                      }
+                                    ],
+                                    "id": "fieldYearStart-9g9ciqpbxqu",
+                                    "label": "required-field"
+                                  },
+                                  {
+                                    "expression": [
+                                      {
+                                        "fieldId": "fixed",
+                                        "kind": "scalar",
+                                        "label": "Fixed value",
+                                        "options": {
+                                          "value": "true"
+                                        },
+                                        "propType": "field",
+                                        "type": "property",
+                                        "typeIds": [
+                                          "String"
+                                        ]
+                                      }
+                                    ],
+                                    "id": "fieldYearStart-34mgjv45cn7",
+                                    "label": "required-highlight"
                                   }
                                 ],
                                 "selector": {
@@ -1512,6 +1593,44 @@
                                     ],
                                     "id": "fieldYearEnd-d4cq80cejtp",
                                     "label": "data-json"
+                                  },
+                                  {
+                                    "expression": [
+                                      {
+                                        "fieldId": "fixed",
+                                        "kind": "scalar",
+                                        "label": "Fixed value",
+                                        "options": {
+                                          "value": "true"
+                                        },
+                                        "propType": "field",
+                                        "type": "property",
+                                        "typeIds": [
+                                          "String"
+                                        ]
+                                      }
+                                    ],
+                                    "id": "fieldYearEnd-lv6kauwbr1",
+                                    "label": "required-field"
+                                  },
+                                  {
+                                    "expression": [
+                                      {
+                                        "fieldId": "fixed",
+                                        "kind": "scalar",
+                                        "label": "Fixed value",
+                                        "options": {
+                                          "value": "true"
+                                        },
+                                        "propType": "field",
+                                        "type": "property",
+                                        "typeIds": [
+                                          "String"
+                                        ]
+                                      }
+                                    ],
+                                    "id": "fieldYearEnd-9jqno9yocq4",
+                                    "label": "required-highlight"
                                   }
                                 ],
                                 "selector": {
@@ -1908,6 +2027,7 @@
                           }
                         ],
                         "custom-name": "File Upload",
+                        "privateStates": [],
                         "selector": {
                           "mainSelector": {
                             "pseudoClass": null,
@@ -2034,7 +2154,7 @@
                         "pseudoClass": null,
                         "selectors": [
                           {
-                            "active": true,
+                            "active": false,
                             "type": "id",
                             "value": "picPreview"
                           },
@@ -2412,17 +2532,38 @@
                                 "type": "textnode"
                               }
                             ],
+                            "privateStates": [
+                              {
+                                "expression": [
+                                  {
+                                    "fieldId": "fixed",
+                                    "kind": "scalar",
+                                    "label": "Fixed value",
+                                    "options": {
+                                      "value": "true"
+                                    },
+                                    "propType": "field",
+                                    "type": "property",
+                                    "typeIds": [
+                                      "String"
+                                    ]
+                                  }
+                                ],
+                                "id": "btnAddPwrSource-ipd6c7vs70f",
+                                "label": "required-highlight"
+                              }
+                            ],
                             "selector": {
                               "mainSelector": {
                                 "pseudoClass": null,
                                 "selectors": [
                                   {
-                                    "active": true,
+                                    "active": false,
                                     "type": "id",
                                     "value": "btnAddPwrSource"
                                   },
                                   {
-                                    "active": false,
+                                    "active": true,
                                     "type": "class",
                                     "value": "btn"
                                   },
@@ -2430,6 +2571,11 @@
                                     "active": false,
                                     "type": "class",
                                     "value": "btn-primary"
+                                  },
+                                  {
+                                    "active": true,
+                                    "type": "tag",
+                                    "value": "button"
                                   }
                                 ]
                               }
@@ -2439,6 +2585,7 @@
                           }
                         ],
                         "custom-name": "Power Source",
+                        "privateStates": [],
                         "selector": {
                           "mainSelector": {
                             "pseudoClass": null,
@@ -2446,7 +2593,7 @@
                               {
                                 "active": false,
                                 "type": "id",
-                                "value": "i7xr9b-4"
+                                "value": "ibn7fh"
                               }
                             ]
                           }
@@ -2720,6 +2867,27 @@
                               {
                                 "content": "+",
                                 "type": "textnode"
+                              }
+                            ],
+                            "privateStates": [
+                              {
+                                "expression": [
+                                  {
+                                    "fieldId": "fixed",
+                                    "kind": "scalar",
+                                    "label": "Fixed value",
+                                    "options": {
+                                      "value": "true"
+                                    },
+                                    "propType": "field",
+                                    "type": "property",
+                                    "typeIds": [
+                                      "String"
+                                    ]
+                                  }
+                                ],
+                                "id": "btnAddTransm-k3f4lwzgz2i",
+                                "label": "required-highlight"
                               }
                             ],
                             "selector": {
@@ -3097,6 +3265,25 @@
                                     ],
                                     "id": "fieldWhyteNotation-7twcpkjc7df",
                                     "label": "data-json"
+                                  },
+                                  {
+                                    "expression": [
+                                      {
+                                        "fieldId": "fixed",
+                                        "kind": "scalar",
+                                        "label": "Fixed value",
+                                        "options": {
+                                          "value": "true"
+                                        },
+                                        "propType": "field",
+                                        "type": "property",
+                                        "typeIds": [
+                                          "String"
+                                        ]
+                                      }
+                                    ],
+                                    "id": "fieldWhyteNotation-3jjartfhx7n",
+                                    "label": "required-highlight"
                                   }
                                 ],
                                 "selector": {
@@ -3341,6 +3528,25 @@
                                     ],
                                     "id": "fieldAllAxles-34goultxgy2",
                                     "label": "data-json"
+                                  },
+                                  {
+                                    "expression": [
+                                      {
+                                        "fieldId": "fixed",
+                                        "kind": "scalar",
+                                        "label": "Fixed value",
+                                        "options": {
+                                          "value": "true"
+                                        },
+                                        "propType": "field",
+                                        "type": "property",
+                                        "typeIds": [
+                                          "String"
+                                        ]
+                                      }
+                                    ],
+                                    "id": "fieldUic-ewam9r7sozo",
+                                    "label": "required-highlight"
                                   }
                                 ],
                                 "selector": {
@@ -3496,6 +3702,25 @@
                                     ],
                                     "id": "fieldPoweredAxles-k7mufnbrvme",
                                     "label": "data-json"
+                                  },
+                                  {
+                                    "expression": [
+                                      {
+                                        "fieldId": "fixed",
+                                        "kind": "scalar",
+                                        "label": "Fixed value",
+                                        "options": {
+                                          "value": "true"
+                                        },
+                                        "propType": "field",
+                                        "type": "property",
+                                        "typeIds": [
+                                          "String"
+                                        ]
+                                      }
+                                    ],
+                                    "id": "fieldPoweredAxles-344lz6iujcv",
+                                    "label": "required-highlight"
                                   }
                                 ],
                                 "selector": {
@@ -5331,6 +5556,44 @@
                             ],
                             "id": "fieldLength-v2rr8zwth68",
                             "label": "data-json"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldLength-kxz41jazahl",
+                            "label": "required-field"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldLength-r0gqe3uhsqt",
+                            "label": "required-highlight"
                           }
                         ],
                         "selector": {
@@ -5508,6 +5771,44 @@
                             ],
                             "id": "fieldWidth-w4658tstff",
                             "label": "data-json"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldWidth-mycl7vglvob",
+                            "label": "required-field"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldWidth-a61rsv4dext",
+                            "label": "required-highlight"
                           }
                         ],
                         "selector": {
@@ -5685,6 +5986,44 @@
                             ],
                             "id": "fieldHeight-h03cmi74orr",
                             "label": "data-json"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldHeight-08typfihdfnn",
+                            "label": "required-field"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldHeight-yvr28574iva",
+                            "label": "required-highlight"
                           }
                         ],
                         "selector": {
@@ -5824,6 +6163,7 @@
                           },
                           "bg-transparent"
                         ],
+                        "id-plugin-data-source": "fieldTrackGauge-3708",
                         "privateStates": [
                           {
                             "expression": [
@@ -5862,8 +6202,47 @@
                             ],
                             "id": "fieldHeight-h03cmi74orr",
                             "label": "data-json"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldTrackGauge-r5by91a7igp",
+                            "label": "required-field"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldTrackGauge-jodrojvr6h",
+                            "label": "required-highlight"
                           }
                         ],
+                        "publicStates": [],
                         "selector": {
                           "mainSelector": {
                             "pseudoClass": null,
@@ -6001,6 +6380,7 @@
                           },
                           "bg-transparent"
                         ],
+                        "id-plugin-data-source": "fieldDryWeight-9220",
                         "privateStates": [
                           {
                             "expression": [
@@ -6039,8 +6419,47 @@
                             ],
                             "id": "fieldDryWeight-g23vypsx166",
                             "label": "data-json"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldDryWeight-9m6b1pvodmk",
+                            "label": "required-field"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldDryWeight-cq629gjye7n",
+                            "label": "required-highlight"
                           }
                         ],
+                        "publicStates": [],
                         "selector": {
                           "mainSelector": {
                             "pseudoClass": null,
@@ -6178,6 +6597,7 @@
                           },
                           "bg-transparent"
                         ],
+                        "id-plugin-data-source": "fieldServiceWeight-3432",
                         "privateStates": [
                           {
                             "expression": [
@@ -6216,8 +6636,47 @@
                             ],
                             "id": "fieldServiceWeight-jim036t52cb",
                             "label": "data-json"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldServiceWeight-arae90c2qfn",
+                            "label": "required-field"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldServiceWeight-yg3875qwjt",
+                            "label": "required-highlight"
                           }
                         ],
+                        "publicStates": [],
                         "selector": {
                           "mainSelector": {
                             "pseudoClass": null,
@@ -6448,6 +6907,7 @@
                           },
                           "bg-transparent"
                         ],
+                        "id-plugin-data-source": "fieldTopSpeed-2603",
                         "privateStates": [
                           {
                             "expression": [
@@ -6486,8 +6946,47 @@
                             ],
                             "id": "fieldGrossWeight-3-2-8801v1gmpr6",
                             "label": "data-json"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldTopSpeed-md7pe5qov69",
+                            "label": "required-field"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldTopSpeed-stql30ozz9k",
+                            "label": "required-highlight"
                           }
                         ],
+                        "publicStates": [],
                         "selector": {
                           "mainSelector": {
                             "pseudoClass": null,
@@ -6625,6 +7124,7 @@
                           },
                           "bg-transparent"
                         ],
+                        "id-plugin-data-source": "fieldAdhesiveWeight-6775",
                         "privateStates": [
                           {
                             "expression": [
@@ -6663,8 +7163,47 @@
                             ],
                             "id": "fieldGrossWeight-3-2-2-gwgddnrk2fb",
                             "label": "data-json"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldAdhesiveWeight-w3r2eexu90a",
+                            "label": "required-field"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldAdhesiveWeight-gy641qmx19k",
+                            "label": "required-highlight"
                           }
                         ],
+                        "publicStates": [],
                         "selector": {
                           "mainSelector": {
                             "pseudoClass": null,
@@ -6840,6 +7379,44 @@
                             ],
                             "id": "fieldServiceWeight-jim036t52cb",
                             "label": "data-json"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldAxleLoad-2ptmgnh3oi2",
+                            "label": "required-field"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldAxleLoad-rsmcqpe3t3h",
+                            "label": "required-highlight"
                           }
                         ],
                         "selector": {
@@ -7021,6 +7598,44 @@
                             ],
                             "id": "fieldGrossWeight-3-2-2-gwgddnrk2fb",
                             "label": "data-json"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldGrossWeight-3-2-2-6z00b7anv35",
+                            "label": "required-field"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldGrossWeight-3-2-2-2s55h14p6eb",
+                            "label": "required-highlight"
                           }
                         ],
                         "selector": {
@@ -7198,6 +7813,44 @@
                             ],
                             "id": "fieldGrossWeight-3-2-2-2-bhbianaq2sq",
                             "label": "data-json"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldContinuousPower-aeox9kkm2ai",
+                            "label": "required-field"
+                          },
+                          {
+                            "expression": [
+                              {
+                                "fieldId": "fixed",
+                                "kind": "scalar",
+                                "label": "Fixed value",
+                                "options": {
+                                  "value": "true"
+                                },
+                                "propType": "field",
+                                "type": "property",
+                                "typeIds": [
+                                  "String"
+                                ]
+                              }
+                            ],
+                            "id": "fieldContinuousPower-tzj7z46vzw",
+                            "label": "required-highlight"
                           }
                         ],
                         "selector": {

@@ -2787,12 +2787,12 @@
                                     "pseudoClass": null,
                                     "selectors": [
                                       {
-                                        "active": true,
+                                        "active": false,
                                         "type": "id",
-                                        "value": "itsyeq-2-2"
+                                        "value": "itsyeq-2-2-2"
                                       },
                                       {
-                                        "active": false,
+                                        "active": true,
                                         "type": "class",
                                         "value": "border-right"
                                       },
@@ -4534,17 +4534,17 @@
                             "pseudoClass": null,
                             "selectors": [
                               {
-                                "active": false,
+                                "active": true,
                                 "type": "id",
-                                "value": "itsyeq"
+                                "value": "itsyeq-3-4"
                               },
                               {
-                                "active": false,
+                                "active": true,
                                 "type": "class",
                                 "value": "border-right"
                               },
                               {
-                                "active": true,
+                                "active": false,
                                 "type": "class",
                                 "value": "mr-3"
                               }

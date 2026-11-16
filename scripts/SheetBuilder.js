@@ -1,7 +1,76 @@
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("btnExportSheet").addEventListener("click", buildSheet);
 
+    let isHighlighting = false;
+    async function highlightRequired () {
+        if (isHighlighting) return;
+
+        isHighlighting = true;
+
+        const elements = document.querySelectorAll("[required-highlight]");
+
+        try {
+            for (let i = 0; i < 3; i++) {
+                elements.forEach(element => {
+                    element.classList.add("border-danger");
+                });
+
+                await new Promise(resolve => setTimeout(resolve, 300));
+
+                elements.forEach(element => {
+                    element.classList.remove("border-danger");
+                });
+
+                if (i < 2) {
+                    await new Promise(resolve => setTimeout(resolve, 300));
+                }
+            }
+        } finally {
+            isHighlighting = false;
+        }
+    }
+
     async function buildSheet() {
+        const emptyFields = [...document.querySelectorAll('[required-field]')]
+            .filter(element => element.value.trim() === "");
+
+        console.log(document.querySelectorAll('[required-field]').length);
+        console.log(emptyFields.length)
+        if (emptyFields.length > 0) {
+            alert("Please enter values in the required fields.");
+            highlightRequired();
+            return;
+        }
+
+        if (document.getElementById("countryOrigin").value == "Null") {
+            alert("Please select a country of origin.");
+            return;
+        }
+
+        if (document.getElementById("picPreview").style.display != "block") {
+            alert("Please insert a 16:9 image.");
+            return;
+        }
+
+        if (document.getElementById("powerSourceContainer").children.length <= 0 ||
+            document.getElementById("transmContainer").children.length <= 0) {
+            alert("Powertrain and transmission types must not be empty.");
+            return;
+        }
+
+        if (document.getElementById("wheelArrBtnGrp").querySelector(":scope > .active").id == "steam") {
+            if (document.getElementById("fieldWhyteNotation").value == "") {
+                alert("Wheel arrangement must not be empty.");
+                return;
+            }
+        } else {
+            if (document.getElementById("fieldUic").value == "" ||
+                document.getElementById("fieldPoweredAxles").value == "") {
+                alert("Wheel arrangement and powered axles count must not be empty.");
+                return;
+            }
+        }
+        
         const templateUrl = "sheet-template/index.html";
 
         try {
