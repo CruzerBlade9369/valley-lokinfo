@@ -4972,6 +4972,170 @@
                   },
                   {
                     "attributes": {
+                      "id": "i7xr9b-4-2-3"
+                    },
+                    "classes": [
+                      {
+                        "label": "mt-1",
+                        "name": "mt-2"
+                      }
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "icaboh-4-2-3"
+                        },
+                        "classes": [
+                          "text-white",
+                          "p-1"
+                        ],
+                        "components": [
+                          {
+                            "content": "Manufacturer",
+                            "type": "textnode"
+                          },
+                          {
+                            "tagName": "br",
+                            "void": true
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": true,
+                                "type": "id",
+                                "value": "icaboh"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "text-white"
+                              },
+                              {
+                                "active": true,
+                                "type": "class",
+                                "value": "p-1"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "text"
+                      },
+                      {
+                        "attributes": {
+                          "id": "manufacturerFieldCont"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "fieldManufacturer",
+                              "type": "text"
+                            },
+                            "classes": [
+                              "form-control",
+                              "text-white",
+                              {
+                                "label": "border-light",
+                                "name": "border-secondary"
+                              },
+                              "bg-transparent"
+                            ],
+                            "privateStates": [
+                              {
+                                "expression": [
+                                  {
+                                    "fieldId": "fixed",
+                                    "kind": "scalar",
+                                    "label": "Fixed value",
+                                    "options": {
+                                      "value": "manufacturer"
+                                    },
+                                    "propType": "field",
+                                    "type": "property",
+                                    "typeIds": [
+                                      "String"
+                                    ]
+                                  }
+                                ],
+                                "id": "fieldStandardName-tso8xf0xvg",
+                                "label": "data-json"
+                              }
+                            ],
+                            "selector": {
+                              "mainSelector": {
+                                "pseudoClass": null,
+                                "selectors": [
+                                  {
+                                    "active": false,
+                                    "type": "id",
+                                    "value": "fieldLocoName-3-2"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "form-control"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "text-white"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "border-secondary"
+                                  },
+                                  {
+                                    "active": false,
+                                    "type": "class",
+                                    "value": "bg-transparent"
+                                  }
+                                ]
+                              }
+                            },
+                            "type": "input",
+                            "void": true
+                          }
+                        ],
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": true,
+                                "type": "id",
+                                "value": "standardNameFieldCont"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "container"
+                      }
+                    ],
+                    "custom-name": "Manufacturer",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": true,
+                            "type": "id",
+                            "value": "i7xr9b-4-2"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "mt-2"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "container"
+                  },
+                  {
+                    "attributes": {
                       "id": "i7xr9b-4-2"
                     },
                     "classes": [

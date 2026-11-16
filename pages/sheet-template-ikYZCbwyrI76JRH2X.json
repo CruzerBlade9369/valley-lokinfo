@@ -716,6 +716,200 @@
                   },
                   {
                     "attributes": {
+                      "id": "iwq3b3-2"
+                    },
+                    "classes": [
+                      "border-top",
+                      "border-bottom",
+                      "d-flex",
+                      "p-2",
+                      "entry-parent"
+                    ],
+                    "components": [
+                      {
+                        "attributes": {
+                          "id": "itsyeq-4"
+                        },
+                        "classes": [
+                          "border-right",
+                          "mr-3"
+                        ],
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "igmpka-4"
+                            },
+                            "classes": [
+                              "text-dark"
+                            ],
+                            "components": [
+                              {
+                                "content": "Manufacturer",
+                                "type": "textnode"
+                              }
+                            ],
+                            "selector": {
+                              "mainSelector": {
+                                "pseudoClass": null,
+                                "selectors": [
+                                  {
+                                    "active": true,
+                                    "type": "id",
+                                    "value": "igmpka"
+                                  },
+                                  {
+                                    "active": true,
+                                    "type": "class",
+                                    "value": "text-dark"
+                                  }
+                                ]
+                              }
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "custom-name": "Left",
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "itsyeq"
+                              },
+                              {
+                                "active": false,
+                                "type": "class",
+                                "value": "border-right"
+                              },
+                              {
+                                "active": true,
+                                "type": "class",
+                                "value": "mr-3"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "container"
+                      },
+                      {
+                        "attributes": {
+                          "id": "i1yfsj-4"
+                        },
+                        "components": [
+                          {
+                            "attributes": {
+                              "id": "manufacturer"
+                            },
+                            "classes": [
+                              "text-dark"
+                            ],
+                            "components": [
+                              {
+                                "content": "Machine Factory I guess",
+                                "type": "textnode"
+                              }
+                            ],
+                            "privateStates": [
+                              {
+                                "expression": [
+                                  {
+                                    "fieldId": "fixed",
+                                    "kind": "scalar",
+                                    "label": "Fixed value",
+                                    "options": {
+                                      "value": "manufacturer"
+                                    },
+                                    "propType": "field",
+                                    "type": "property",
+                                    "typeIds": [
+                                      "String"
+                                    ]
+                                  }
+                                ],
+                                "id": "manufacturer-s2t71agobvk",
+                                "label": "loco-data"
+                              }
+                            ],
+                            "selector": {
+                              "mainSelector": {
+                                "pseudoClass": null,
+                                "selectors": [
+                                  {
+                                    "active": true,
+                                    "type": "id",
+                                    "value": "iu735b"
+                                  },
+                                  {
+                                    "active": true,
+                                    "type": "class",
+                                    "value": "text-dark"
+                                  }
+                                ]
+                              }
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "custom-name": "Right",
+                        "selector": {
+                          "mainSelector": {
+                            "pseudoClass": null,
+                            "selectors": [
+                              {
+                                "active": false,
+                                "type": "id",
+                                "value": "i1yfsj"
+                              }
+                            ]
+                          }
+                        },
+                        "type": "container"
+                      }
+                    ],
+                    "custom-name": "Entry",
+                    "selector": {
+                      "mainSelector": {
+                        "pseudoClass": null,
+                        "selectors": [
+                          {
+                            "active": false,
+                            "type": "id",
+                            "value": "iwq3b3"
+                          },
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "border-top"
+                          },
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "border-bottom"
+                          },
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "d-flex"
+                          },
+                          {
+                            "active": false,
+                            "type": "class",
+                            "value": "p-2"
+                          },
+                          {
+                            "active": true,
+                            "type": "class",
+                            "value": "entry-parent"
+                          }
+                        ]
+                      }
+                    },
+                    "type": "container"
+                  },
+                  {
+                    "attributes": {
                       "id": "iwq3b3"
                     },
                     "classes": [
