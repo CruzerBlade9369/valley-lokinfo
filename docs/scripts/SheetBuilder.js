@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
             })
 
             transmissionTypes.forEach(transm => {
-                locoName += transm.value;
+                if (transm.value != "Null") locoName += transm.value;
             })
 
             const active = arrangementMode.querySelector(":scope > .active")
